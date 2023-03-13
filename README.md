@@ -1,3 +1,9 @@
+# Build Modern Blog App with React | GraphQL, NextJS, Tailwind CSS and GraphCMS(Hygraph)
+
+With featured and recent posts, categories. full markdown articles, author information, comments, and much more, this fully responsive #HeadlessCMS Blog App. And what's best of all is that you or your clients can manage the blog from a dedicated Content Management System. Built with the newest technologies such as React JS, #NextJS, Tailwind CSS, #GraphQL, and GraphCMS. 
+
+# Installation -
+
 # Next.js + Tailwind CSS Example
 
 This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
