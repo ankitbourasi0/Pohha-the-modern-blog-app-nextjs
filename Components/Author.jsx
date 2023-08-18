@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Author = ({ author }) => {
   return (
-    <div className="text-center mt-20 mb-8 p-12 relative rounded-lg bg-black dark:bg-green-400 bg-opacity-80 flex ">
+    <div className="text-center mt-20 mb-8 p-12 relative rounded-lg bg-black  bg-opacity-80 flex ">
       <div className=" ">
         <Image
           alt={author.name}
