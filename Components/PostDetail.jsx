@@ -16,13 +16,19 @@ const PostDetail = ({ post }) => {
       if (obj.underline) {
         modifiedText = (<u key={index}>{text}</u>);
       }
+
+      if(obj.code){
+        modifiedText = ( <pre  key={index}><code className="font-medium text-xl">{text}</code></pre>);
+      }
     }
+
 
     switch (type) {
       case 'heading-three':
         return <h3 key={index} className="text-xl font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h3>;
       case 'paragraph':
         return <p key={index} className="mb-8">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</p>;
+     
       case 'heading-four':
         return <h4 key={index} className="text-md font-semibold mb-4">{modifiedText.map((item, i) => <React.Fragment key={i}>{item}</React.Fragment>)}</h4>;
       case 'image':
@@ -50,7 +56,7 @@ const PostDetail = ({ post }) => {
           className="object-top h-full w-full rounded-t-lg"
         />
       </div>
-      <div className="px-4 lg:px-0">
+      <div className="px-4 lg:px-0 ">
         <div className="flex  items-center mb-8 w-full">
           <div className="flex items-center  mb-4 lg:mb-0 w-full lg:w-auto mr-8 ">
             <img
