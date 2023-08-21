@@ -17,6 +17,12 @@ const Home = ({ posts }) => {
       <Head>
         <title>Pohaa</title>
         <link rel="icon" href="/favicon.ico" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4782798272247151"
+     crossorigin="anonymous"></script>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4782798272247151"
+     crossorigin="anonymous"></script>
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4782798272247151"
+     crossorigin="anonymous"></script>
       </Head>
       <FeaturedPosts />
 

@@ -37,7 +37,6 @@ const PostDetail = ({ post }) => {
                   ? "unset"
                   : "100%",
               padding: "10px",
-
               border: " 1px solid #ddd",
               borderRadius: "4px",
               whiteSpace: "pre-wrap",
